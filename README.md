@@ -8,6 +8,8 @@ Hamza Ali https://www.linkedin.com/in/hamza-mohamed-ali/
 Sabeen Ali https://www.linkedin.com/in/sabeenali/
 Aladdin Ismael https://www.linkedin.com/in/aladdinismael/
 
+Feedback: https://docs.google.com/document/d/1KMzNc6gft54Gd9sCg7rqGi22jMnvEm2FqQYarG_RYG0/edit?usp=sharing
+
 ## Getting Started
 
 First, run the development server:

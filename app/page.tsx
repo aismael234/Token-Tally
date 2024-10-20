@@ -74,8 +74,8 @@ export default function Home() {
   }, [appId, userToken, encryptionKey, challengeId]);
 
   return (
-    <div className="flex flex-col items-center justify-center">
-      <div className="p-4">
+    <div className="flex flex-column justify-center items-center">
+      <div className="flex p-4">
         <TextField
           label="App Id"
           onChange={onChangeHandler(setAppId, "appId")}
@@ -108,8 +108,9 @@ export default function Home() {
         >
           Verify Challenge
         </Button>
-        <ToastContainer />
+        {/* <ToastContainer /> */}
       </div>
+      <button className="font-bold">Connect Wallet</button>
     </div>
   );
 }
