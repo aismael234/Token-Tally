@@ -4,13 +4,13 @@ Token Tally serves as a decentralized hackathon judging platform that promotes t
 
 Judges are given a set amount of tokens to allocate across multiple projects as they see fit. After the judging round concludes, the tokens and any prize earnings are automatically distributed to team members using a smart contract and Circles programmable wallet, based on pre-determined allocation percentages. Powered by the Flow blockchain, Token Tally ensures transparent, fair, and automated reward distribution.
 
-Hamza Ali https://www.linkedin.com/in/hamza-mohamed-ali/
-Sabeen Ali https://www.linkedin.com/in/sabeenali/
-Aladdin Ismael https://www.linkedin.com/in/aladdinismael/
+[Hamza Ali](https://www.linkedin.com/in/hamza-mohamed-ali/)
+[Sabeen Ali](https://www.linkedin.com/in/sabeenali/)
+[Aladdin Ismael](https://www.linkedin.com/in/aladdinismael/)
 
-Feedback: https://docs.google.com/document/d/1KMzNc6gft54Gd9sCg7rqGi22jMnvEm2FqQYarG_RYG0/edit?usp=sharing
+[Feedback](https://docs.google.com/document/d/1KMzNc6gft54Gd9sCg7rqGi22jMnvEm2FqQYarG_RYG0/edit?usp=sharing)
 
-## Getting Started
+### Getting Started
 
 First, run the development server:
 
