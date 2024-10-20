@@ -5,6 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import { W3SSdk } from "@circle-fin/w3s-pw-web-sdk";
+import Link from "next/link";
 
 let sdk: W3SSdk;
 
@@ -74,8 +75,8 @@ export default function Home() {
   }, [appId, userToken, encryptionKey, challengeId]);
 
   return (
-    <div className="flex flex-column justify-center items-center">
-      <div className="flex p-4">
+    <div className="flex flex-col justify-center items-center">
+      <div className="flex p-4 justify-center items-center">
         <TextField
           label="App Id"
           onChange={onChangeHandler(setAppId, "appId")}
@@ -108,9 +109,13 @@ export default function Home() {
         >
           Verify Challenge
         </Button>
-        {/* <ToastContainer /> */}
       </div>
-      <button className="font-bold">Connect Wallet</button>
+      <Link
+        className="p-4 font-bold text-xl bg-black rounded-lg hover:cursor-pointer"
+        href="/judging/46ab42f2cc3a6a3fb2"
+      >
+        Connect Wallet
+      </Link>
     </div>
   );
 }
